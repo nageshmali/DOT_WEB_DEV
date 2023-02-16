@@ -1,0 +1,63 @@
+#external{
+    color: brown;
+}
+
+#homework{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#hwimg{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#hwh{
+    margin-left: 15px;
+    margin-top: 0px;
+    font-size: 1.5rem;
+    
+}
+
+.fontf{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#s1{
+    margin-left: 15px;
+    color: rgb(110 150 207);
+    font-size: 1rem;
+    line-height: -1.5px;
+    font-weight: bold;
+}
+
+#s2{
+    margin-left: 15px;
+    color: rgb(119 124 133);
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+#s3{
+    margin-left: 15px;
+    font-size: 1rem;
+    border: 1px solid green;
+    padding: 5px;
+    background-color: rgb(42, 236, 42);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#hwhr{
+    margin-left: 15px;
+    width: 75%;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}

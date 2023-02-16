@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BASICS 1</title>
+
+    <link rel="stylesheet" href="5-CSS_BASCIS_1.css">
+
+    <style>
+
+        /* Element Selector */
+        p{
+            color: purple;
+            font-size: larger;
+        }
+
+        h1{
+            background-color: aqua;
+        }
+
+        table,tr,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+
+        /* Class Selector */
+
+        .btn{
+            width: 80px;
+            background-color: rebeccapurple;
+            border: transparent;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .para{
+            color: green;
+        }
+
+        .heading{
+            background-color: blue;
+        }
+
+        /* ID Selector */
+
+        #tbtn{
+            width: 120px;
+            cursor: pointer;
+            font-size: 20px;
+            color: red;
+        }
+
+        /* Pseudo Selector */
+        #no{
+            width: 120px;
+            height: 40px;
+        }
+        #no:hover{
+            color: red;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        /* Box Model */
+        .box{
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+            margin: 30px;
+            padding: 40px;
+        }
+
+        #d1{
+            background-color: orangered;
+        }
+        #d3{
+            background-color: green;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    <h3>HTML - WHAT</h3>
+    <h3>CSS (Cascading Style Sheet) - HOW</h3>
+
+    <hr>
+
+    <h3>Selectors in CSS</h3>
+    <h3>1. Simple Selector - id, class, element</h3>
+    <h3>2. Pseudo Selector</h3>
+    <h3>3. Multiple Selector</h3>
+
+    <hr>
+
+    <h3>Element Selector</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorum provident iste consectetur tenetur aspernatur eos, quae laborum commodi quia.</p>
+    <h1>My First Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ad aspernatur, qui aperiam accusantium magni minus eaque accusamus? Explicabo, hic.</p>
+
+    <table>
+        <tr>
+            <td>Roll</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nagesh</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Class Selector</h3>
+    <button class="btn">Submit</button>
+    <button class="btn">Clear</button>
+    <button class="btn">View</button>
+
+    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, temporibus?</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus. Nesciunt consectetur recusandae ducimus? Rem nemo quas cupiditate numquam odit!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora dignissimos, dolores molestiae modi facilis nostrum. Eius veritatis, consectetur neque qui eum voluptatibus ullam quasi optio provident dolore explicabo fuga error.</p>
+
+    <h1 class="heading">Heading 1</h1>
+    <h2 class="heading">Heading 2</h2>
+    <h3 class="heading">Heading 3</h3>
+
+    <hr>
+
+    <h3>ID Selector - UNIQUE</h3>
+
+    <button id="tbtn">Clear ALL</button>
+
+    <hr>
+
+    <h3>Pseudo Selector</h3>
+
+    <button id="no">Submit</button>
+
+    <hr>
+
+    <h3>Multiple Selector</h3>
+
+    <h3>Done with Table</h3>
+
+    <hr>
+
+    <h3>CSS LINKING</h3>
+    <h3>INLINE , INRERNAL , EXTERNAL</h3>
+
+    <p style="color: red;">Done with Inline CSS</p>
+    <p id="internal">Done with Internal CSS</p>
+    <p id="external">Done with External CSS</p>
+
+    <hr>
+
+    <h3 class="h3" id="h33" class="h333">Specificity - Tag < Class < Id < Inline < !important</h3>
+
+    <hr>
+
+    <h3>BOX Model</h3>
+
+    <img style="width:320px; height: auto;" src="5-Box_Model.png" alt="Box Model">
+
+    <div class="box" id="d1">A</div>
+    <div class="box" id="d2">B</div>
+    <div class="box" id="d3">C</div>
+
+    <hr>
+
+    <h3>Colors</h3>
+
+    <h3>Hexadecimal - #ffffff</h3>
+    <h3>Predefined - red</h3>
+    <h3>RGB (Red, Blue, Green) - (0,0,0)</h3>
+
+    <hr>
+
+    <h3>Fonts</h3>
+    <h3>Font Family</h3>
+    <h3>Font Weight</h3>
+    <h3>Font Style</h3>
+    <h3>External Fonts</h3>
+
+    <hr>
+
+    <h3>Units</h3>
+    <h3>Absolute - px (CSS 1/96 th of inch) ,  in , mm , cm ,</h3>
+    <h3>Percentage - 10% , x% , of parent</h3>
+    <h3>Relative - em(x * 18) , rem(relative to root i.e html) ,(relative to parent)</h3>
+    <h3>Viewport - vh , vw</h3>
+
+    <hr>
+
+    <h3>HomeWork</h3>
+
+    <div id="homework">
+        <img id="hwimg" src="5-Homework.PNG" alt="">
+
+        <h3 id="hwh" class="fontf"> Web Development Master <br> Course @dot Batch</h3>
+
+        <hr id="hwhr">
+
+        <span id="s1" class="fontf">$4500</span>
+        <del id="s2" class="fontf">$6999</del>
+        <span id="s3" class="fontf">42% off</span>
+
+
+    </div>
+
+    <hr>
+
+    
+
+
+
+
+</body>
+</html>
